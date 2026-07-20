@@ -80,7 +80,7 @@ $$
 
 is the correction matrix.
 
-## Calibration Procedure
+## Stray Light Correction Procedure
 
 ### Step 1 -- Laser Calibration
 
@@ -127,6 +127,10 @@ SDF(i)=
 \qquad i\notin IB.
 $$
 
+<p align="center">
+<img src="outputs/figures/stray_light_out_of_band.png" width="900">
+</p>
+
 ### Step 6 -- Build the Stray-light Matrix
 
 Each measured SDF is inserted into the detector column corresponding to
@@ -142,6 +146,11 @@ $$
 $$
 \mathbf{C}=\mathbf{A}^{-1}
 $$
+
+<p align="center">
+  <img src="outputs/figures/SDF_matrix.png" width="400" height="400">
+  <img src="outputs/figures/Correction_matrix.png" width="400" height="400">
+</p>
 
 ## L0 File Correction before trace gas retrieval
 
@@ -172,15 +181,18 @@ $$
 ## Validation
 
 The corrected L0 spectra are processed through the standard Pandora
-L1/L2 retrieval chain and compared against a reference Pandora
+L1/L2 retrieval chain and compared against a reference Pandora 2
 instrument. Recommended validation plots include:
 
--   Raw vs corrected spectra
--   Normalized LSFs
--   Stray-light matrix
--   Correction matrix
--   Ozone retrieval comparison
--   Before/after retrieval residuals
+<p align="center">
+<img src="outputs/figures/pandora63_O3_data_comparison.png" width="900">
+</p>
+
+## Corrected O3 data comparison with Brewer
+
+<p align="center">
+<img src="outputs/figures/O3_comparison_Brewer_Izana.png" width="900">
+</p>
 
 ## Workflow
 
