@@ -192,6 +192,8 @@ instrument. Recommended validation plots include:
 
 Three stray-light-affected Pandora instruments (Pandora 101, Pandora 121, and Pandora 209) at the Izana were used to validate the proposed correction method. An individual stray-light correction matrix was developed for each instrument and applied to its operational L0 spectra. The resulting ozone (O₃) retrievals showed much better agreement with measurements from the Brewer at Izana, demonstrating that the proposed method effectively reduces stray-light-induced errors in Pandora ozone retrievals.
 
+European Brewer Network: https://eubrewnet.aemet.es/eubrewnet/default/index
+
 <p align="center">
 <img src="outputs/figures/O3_comparison_Brewer_Izana.png" width="900">
 </p>
