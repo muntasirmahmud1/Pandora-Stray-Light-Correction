@@ -1,12 +1,16 @@
 # Pandora-Stray-Light-Correction
 
 
-The objective of this project is to estimate and remove optical stray
-light in Pandora spectrometer measurements using monochromatic laser
-calibration data. The measured laser line spread functions (LSFs) are
-converted into stray-light distribution functions (SDFs), assembled into
-a stray-light matrix, and inverted to generate a correction matrix that
-is applied to operational Level-0 (L0) spectra.
+Pandora is a ground-based UV–Visible hyperspectral spectrometer for high-accuracy measurements of atmospheric trace gases, including ozone (O₃), nitrogen dioxide (NO₂) and other gases. As part of the Pandonia Global Network (PGN), Pandora instruments provide reference observations for satellite validation, air quality monitoring, and atmospheric research.
+
+Like all spectrometers, Pandora measurements are affected by optical stray light, where photons are scattered from their true wavelengths onto neighboring detector pixels due to optical imperfections. This redistribution distorts the measured spectrum and weakens atmospheric absorption features, introducing systematic biases into retrievals of ozone and other trace gases.
+
+This repository implements an automated matrix-based stray-light correction algorithm based on the original Pandora calibration methodology. Monochromatic laser calibration measurements are used to estimate the instrument's Stray-Light Distribution Function (SDF), construct a detector-wide stray-light matrix, and compute a correction matrix that is applied to operational Pandora Level-0 (L0) spectra. The implementation replaces manual laser extraction with a fully automated pipeline while preserving compatibility with the original Pandora correction approach.
+
+For more information about the Pandora instrument and the Pandonia Global Network, visit:
+
+Pandonia Global Network: https://www.pandonia-global-network.org/
+About Pandora: https://www.pandonia-global-network.org/home/about/
 
 ## Mathematical Model
 
