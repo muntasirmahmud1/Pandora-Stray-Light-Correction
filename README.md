@@ -10,17 +10,18 @@ This repository implements an automated matrix-based stray-light correction algo
 For more information about the Pandora instrument and the Pandonia Global Network, visit:
 
 Pandonia Global Network: https://www.pandonia-global-network.org/
+
 About Pandora: https://www.pandonia-global-network.org/home/about/
 
 # Analysis
 
-Before developing the stray-light correction algorithm, an analysis was performed to investigate the relationship between the instrument's optical response and the accuracy of ozone (O₃) retrievals across multiple Pandora spectrometers.
+Before developing the stray-light correction algorithm, an analysis was performed to investigate the relationship between the instrument's optical response and the accuracy of ozone (O₃) retrievals across multiple Pandora instruments.
 
-Pandora ozone retrievals are performed primarily within the 305–325 nm spectral region. During the factory calibration of every Pandora instrument, a 325 nm monochromatic laser is measured to characterize the instrument's Line Spread Function (LSF). Since the 325 nm wavelength lies within the ozone retrieval window, its LSF provides a direct indication of the instrument's optical performance and stray-light characteristics.
+Pandora ozone retrievals are performed primarily within the 305–325 nm spectral region. During the calibration of every Pandora instrument, a 325 nm monochromatic laser is measured to characterize the instrument. Since the 325 nm wavelength lies within the ozone retrieval window, its 's Line Spread Function (LSF) provides a direct indication of the instrument's optical performance and stray-light characteristics.
 
 To evaluate the impact of stray light on ozone retrievals, the normalized 325 nm laser LSFs from several Pandora instruments were compared against the corresponding LSF measured from Pandora 2, which is considered the reference instrument because it consistently produces accurate ozone retrievals.
 
-Observations
+# Observations
 
 The comparison reveals a clear relationship between the shape of the 325 nm LSF and ozone retrieval performance:
 
@@ -34,7 +35,8 @@ Good Optical Performance
 The following instruments produce ozone retrievals that closely agree with the reference Pandora measurements. Their normalized 325 nm LSFs nearly overlap the reference LSF, indicating minimal stray-light contamination.
 
 <p align="center"> <img src="outputs/figures/good_lsf_1.png" width="32%"> <img src="outputs/figures/good_lsf_2.png" width="32%"> <img src="outputs/figures/good_lsf_3.png" width="32%"> </p>
-Moderate to Severe Stray Light
+
+Moderate to Severe Stray Light affected
 
 The following instruments exhibit progressively broader 325 nm LSFs compared to the reference Pandora. The widening of the LSF, particularly in the tails, indicates increasing levels of stray light that degrade the measured spectra and introduce systematic biases into ozone retrievals.
 
@@ -101,6 +103,10 @@ L_n(i)=
 \frac{L(i)-L_{\min}}
 {L_{\max}-L_{\min}}.
 $$
+
+<p align="center">
+<img src="outputs/figures/nomalized_laser_lsf.png" width="900">
+</p>
 
 ### Step 4 -- Define the In-band Region
 
