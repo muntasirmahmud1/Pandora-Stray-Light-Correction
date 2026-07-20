@@ -101,7 +101,7 @@ $$
 \mathbf{C}=\mathbf{A}^{-1}
 $$
 
-## Operational L0 Correction
+## L0 File Correction before trace gas retrieval
 
 Dark counts are first removed,
 
@@ -124,16 +124,7 @@ $$
 and the dark counts are restored,
 
 $$
-\boxed{
-\mathbf{x}_{corr}
-=
-\mathbf{d}
-+
-\max\left(
-\mathbf{C}(\mathbf{y}-\mathbf{d}),
-0
-\right)
-}
+\boxed{\mathbf{x}_{corr}=\mathbf{d}+\max\left(\mathbf{C}(\mathbf{y}-\mathbf{d}),0\right)}
 $$
 
 ## Validation
