@@ -1,7 +1,7 @@
 # Pandora-Stray-Light-Correction
 
 
-Pandora is a ground-based UV–Visible spectrometer for high-accuracy measurements of atmospheric trace gases, including ozone (O₃), nitrogen dioxide (NO₂) and other gases. As part of the Pandonia Global Network (PGN), Pandora instruments provide reference observations for satellite validation, air quality monitoring, and atmospheric research.
+Pandora is a ground-based UV–Visible spectrometer for high-accuracy measurements of atmospheric trace gases, including ozone (O₃), nitrogen dioxide (NO₂) and other trace gases. As part of the Pandonia Global Network (PGN), Pandora instruments provide reference observations for satellite validation, air quality monitoring, and atmospheric research.
 
 Like all spectrometers, Pandora measurements are affected by optical stray light, where photons are scattered from their true wavelengths onto neighboring detector pixels due to optical imperfections. This redistribution distorts the measured spectrum and weakens atmospheric absorption features, introducing systematic biases into retrievals of ozone and other trace gases.
 
