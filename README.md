@@ -17,7 +17,7 @@ About Pandora: https://www.pandonia-global-network.org/home/about/
 
 Before developing the stray-light correction algorithm, an analysis was performed to investigate the relationship between the instrument's optical response and the accuracy of ozone (O₃) retrievals across multiple Pandora instruments.
 
-Pandora ozone retrievals are performed primarily within the 305–325 nm spectral region. During the calibration of every Pandora instrument, a 325 nm monochromatic laser is measured to characterize the instrument. Since the 325 nm wavelength lies within the ozone retrieval window, its 's Line Spread Function (LSF) provides a direct indication of the instrument's optical performance and stray-light characteristics.
+Pandora ozone retrievals are performed primarily within the 305–325 nm spectral region. During the calibration of every Pandora instrument, a 325 nm monochromatic laser is measured to characterize the instrument. Since the 325 nm wavelength lies within the ozone retrieval window, it's Line Spread Function (LSF) provides a direct indication of the instrument's optical performance and stray-light characteristics.
 
 To evaluate the impact of stray light on ozone retrievals, the normalized 325 nm laser LSFs from several Pandora instruments were compared against the corresponding LSF measured from Pandora 2, which is considered the reference instrument because it consistently produces accurate ozone retrievals.
 
