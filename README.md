@@ -45,7 +45,6 @@ Conclusion
 
 This analysis demonstrates a strong correlation between the 325 nm laser line spread function and the quality of Pandora ozone retrievals.
 
-
 ## Mathematical Model
 
 Let:
@@ -190,7 +189,7 @@ instrument. Recommended validation plots include:
 
 ## Comparison with Brewer
 
-Three stray-light-affected Pandora instruments (Pandora 101, Pandora 121, and Pandora 209) at the Izana were used to validate the proposed correction method. An individual stray-light correction matrix was developed for each instrument and applied to its operational L0 spectra. The resulting ozone (O₃) retrievals showed much better agreement with measurements from the Brewer at Izana, demonstrating that the proposed method effectively reduces stray-light-induced errors in Pandora ozone retrievals.
+Three stray-light-affected Pandora instruments (Pandora 101, Pandora 121, and Pandora 209) at the Izana were used to validate the proposed correction method. Stray light correction matrix was developed for each instrument and applied to its operational L0 spectra. The resulting ozone (O₃) retrievals showed much better agreement with measurements from the Brewer at Izana, demonstrating that the proposed method effectively reduces stray-light induced errors in Pandora ozone retrievals.
 
 European Brewer Network: https://eubrewnet.aemet.es/eubrewnet/default/index
 
