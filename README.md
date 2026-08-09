@@ -71,7 +71,7 @@ $$
 \mathbf{x}=(\mathbf{I}+\mathbf{S})^{-1}\mathbf{y},
 $$
 
-where
+where,
 
 $$
 \mathbf{C}=(\mathbf{I}+\mathbf{S})^{-1}
