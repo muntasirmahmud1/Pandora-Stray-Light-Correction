@@ -183,6 +183,7 @@ The corrected L0 spectra are processed through the standard Pandora
 L1/L2 retrieval chain and compared against a reference Pandora 2
 instrument. Recommended validation plots include:
 
+***Image will be added soon.
 <!-- <p align="center">
 <img src="outputs/figures/pandora63_O3_data_comparison.png" width="900">
 </p> -->
