@@ -194,9 +194,10 @@ Three stray-light-affected Pandora instruments (Pandora 101, Pandora 121, and Pa
 
 European Brewer Network: https://eubrewnet.aemet.es/eubrewnet/default/index
 
-<p align="center">
+***updated image will be added soon
+<!-- <p align="center">
 <img src="outputs/figures/O3_comparison_Brewer_Izana.png" width="900">
-</p>
+</p> -->
 
 ## Workflow
 
