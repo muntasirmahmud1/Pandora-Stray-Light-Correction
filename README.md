@@ -216,7 +216,7 @@ Stray-light Matrix (S)
     ↓
 Correction Matrix C=(I+S)^−1
     ↓
-Operational L0
+    L0
     ↓
 Corrected L0
     ↓
