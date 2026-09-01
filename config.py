@@ -1,15 +1,12 @@
 from pathlib import Path
 
-
 PROJECT_ROOT = Path(__file__).resolve().parent
-
 
 # ============================================================
 # Detector
 # ============================================================
 
 DETECTOR_PIXEL_COUNT = 2048
-
 
 # ============================================================
 # Original notebook SDF settings
@@ -22,7 +19,6 @@ DETECTOR_PIXEL_COUNT = 2048
 #
 # which is 21 pixels total.
 IB_REGION_SIZE = 20
-
 
 # In some calibration L0 file extra peaks observed for the 325 nm laser.
 # These peaks were because of faulty laser and should not be considered as stray light.
