@@ -1,3 +1,7 @@
+<p align="center">
+<img src="outputs/figures/SL_correction_paper.png" width="900">
+</p>
+
 # Pandora-Stray-Light-Correction
 
 
